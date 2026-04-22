@@ -1,14 +1,3 @@
-import os
-
-# adicione no fim do arquivo settings.py:
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-# crie o arquivo "tests_selenium.py" na pasta "forum"  e cole o conteúdo abaixo:
-
-
 from django.test import override_settings
 from django.utils import timezone
 from os import link
